@@ -1,1 +1,7 @@
+alias tmux="tmux -2"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export GOPATH=$HOME/coding/go
+export PATH=$PATH:$GOPATH/bin
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
