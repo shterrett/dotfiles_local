@@ -1,4 +1,5 @@
-alias tmux="tmux -2"
+# alias tmux="tmux -2"
+# alias tmux="TERM='xterm-16color' tmux"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export GOPATH=$HOME/coding/go
 export PATH=$PATH:$GOPATH/bin
