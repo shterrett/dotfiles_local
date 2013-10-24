@@ -9,3 +9,17 @@ colorscheme solarized
 set cursorline
 set cursorcolumn
 set colorcolumn=80
+
+let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+
+" Rename current file (thanks Gary Bernhardt)
+function! RenameFile()
+  let old_name = expand('%')
+  let new_name = input('New file name: ', expand('%'), 'file')
+  if new_name != '' && new_name != old_name
+    exec ':saveas ' . new_name
+    exec ':silent !rm ' . old_name
+    redraw!
+  endif
+endfunction
+map <leader>n :call RenameFile()<cr>
