@@ -1,3 +1,7 @@
 [user]
-	name = Stuart Terrett
-	email = shterrett@gmail.com
+  name = Stuart Terrett
+  email = shterrett@gmail.com
+[credential]
+  helper = osxkeychain
+[format]
+  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
