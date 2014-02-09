@@ -1,3 +1,5 @@
+[push]
+	default = simple
 [user]
   name = Stuart Terrett
   email = shterrett@gmail.com

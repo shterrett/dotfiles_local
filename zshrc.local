@@ -7,6 +7,9 @@ export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 
+# scheme alias
+alias scheme="/Applications/MIT:GNU\ Scheme.app/Contents/Resources/mit-scheme"
+
 # makes color constants available
 autoload -U colors
 colors
