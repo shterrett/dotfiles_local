@@ -27,19 +27,3 @@ endfunction
 map <leader>n :call RenameFile()<cr>
 
 set clipboard=unnamed
-
-imap {<Space> {<Space><Space>}<left><left>
-imap { {<CR>}
-imap {<CR> {<CR><CR>}<Up>
-
-imap ( ()<left>
-imap () ()
-inoremap <silent> (. ().<C-x><C-o>
-inoremap <silent> (- ()-><C-x><C-o>
-imap (<space> (<space><space>)<left><left>
-
-imap [ []<left>
-imap [<space> [<space><space>]<left><left>
-
-inoremap " ""<left>
-inoremap "" ""
