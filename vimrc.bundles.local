@@ -1,1 +1,4 @@
 Bundle 'jgdavey/tslime.vim'
+Bundle 'vim-scripts/VimClojure'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'dag/vim2hs'
