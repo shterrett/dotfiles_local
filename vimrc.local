@@ -27,3 +27,5 @@ endfunction
 map <leader>n :call RenameFile()<cr>
 
 set clipboard=unnamed
+
+set nofoldenable
