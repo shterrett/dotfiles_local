@@ -13,6 +13,9 @@ export PATH="$HOME/Library/Haskell/bin:$PATH"
 # scheme alias
 alias scheme="/Applications/MIT:GNU\ Scheme.app/Contents/Resources/mit-scheme"
 
+#python alias
+alias python="/usr/local/bin/python3"
+
 # makes color constants available
 autoload -U colors
 colors
