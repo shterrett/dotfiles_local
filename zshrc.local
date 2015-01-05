@@ -15,6 +15,7 @@ alias scheme="/Applications/MIT:GNU\ Scheme.app/Contents/Resources/mit-scheme"
 
 #python alias
 alias python="/usr/local/bin/python3"
+alias python2="/usr/local/bin/python2.7"
 
 # makes color constants available
 autoload -U colors
