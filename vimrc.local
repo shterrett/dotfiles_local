@@ -12,7 +12,7 @@ set cursorline
 set cursorcolumn
 set colorcolumn=80
 
-let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+let g:rspec_command = 'call Send_to_Tmux("nocorrect bundle exec rspec {spec}\n")'
 
 " Rename current file (thanks Gary Bernhardt)
 function! RenameFile()
